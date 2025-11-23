@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Face Detection Attendance</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="/static/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="card">
+          <div class="title">Face Detection Attendance</div>
+          <div style="position:relative; display:inline-block;">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="overlay" style="position:absolute; left:0; top:0; pointer-events:none;"></canvas>
+          </div>
+          <div id="controls">
+            <button id="capture">Verify</button>
+            <div class="form-row">
+              <input id="label" placeholder="Label (e.g. user5)" />
+              <button class="secondary" id="enroll">Enroll</button>
+            </div>
+            <div class="form-row">
+              <input id="classInput" placeholder="Class / Section (optional)" />
+              <button id="markAttendance" class="secondary">Mark Attendance</button>
+            </div>
+            <button id="addFace">Add Face Data</button>
+            <button id="trainBtn">Train Model</button>
+            <span class="status" id="status"></span>
+          </div>
+          <div id="output"></div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="card">
+          <div class="title">Saved</div>
+          <div class="thumbs" id="thumbs"></div>
+        </div>
+        <div class="card" style="margin-top:12px">
+          <div class="title">Info</div>
+          <div class="small">Verify uses the trained LBPH model in <code>models/</code>. Add saves crops and DB entries.</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/capture.js?v=4"></script>
+  </body>
+</html>

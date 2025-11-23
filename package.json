@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "jsqr": "^1.4.0",
+    "mongoose": "^8.19.3",
+    "node": "^25.1.0",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.10",
+    "qrcode": "^1.5.4"
+  },
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

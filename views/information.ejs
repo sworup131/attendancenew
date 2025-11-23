@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance - QR Scanner</title>
+    <link rel="stylesheet" href="/scanner.css">
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>📍 Attendance System</h1>
+                <p class="subtitle">Scan QR Code to Mark Attendance</p>
+            </div>
+            <button class="logout-btn" onclick="handleLogout()">Logout</button>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Scanner Section -->
+            <div class="scanner-section">
+                <div class="scanner-container">
+                    <div id="scanner-area" class="scanner-area">
+                        <video id="video" class="video-stream"></video>
+                        <canvas id="canvas" style="display:none;"></canvas>
+                        <div class="scanner-overlay">
+                            <div class="scanner-frame"></div>
+                            <p class="scanner-hint">Position QR code within the frame</p>
+                        </div>
+                    </div>
+
+                    <div class="scanner-controls">
+                        <button id="start-camera-btn" class="btn btn-primary" onclick="startCamera()">
+                            📷 Start Camera
+                        </button>
+                        <button id="stop-camera-btn" class="btn btn-secondary" onclick="stopCamera()" style="display:none;">
+                            ⏹️ Stop Camera
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Result Card -->
+                <div id="result-card" class="result-card" style="display:none;">
+                    <div class="result-content">
+                        <div class="result-icon success-icon">✓</div>
+                        <h2>Attendance Marked!</h2>
+                        <p id="result-message"></p>
+                        <p id="result-time" class="result-time"></p>
+                        <button class="btn btn-primary" id="close-return-btn" onclick="closeAndReturn()">
+                            Close and Return
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Error Card -->
+                <div id="error-card" class="error-card" style="display:none;">
+                    <div class="error-content">
+                        <div class="error-icon">⚠️</div>
+                        <h2>Error</h2>
+                        <p id="error-message"></p>
+                        <button class="btn btn-primary" onclick="dismissError()">
+                            Try Again
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Info Section -->
+            <div class="info-section">
+                <div class="info-card">
+                    <h3>📝 Instructions</h3>
+                    <ul>
+                        <li>Click "Start Camera" to begin scanning</li>
+                        <li>Position the QR code within the frame</li>
+                        <li>The system will automatically detect and process the QR code</li>
+                        <li>Your attendance will be recorded with the timestamp</li>
+                    </ul>
+                </div>
+
+                <div class="info-card">
+                    <h3>⚙️ Permissions</h3>
+                    <p>This app requires camera access. When prompted, please allow camera permissions to use the scanner.</p>
+                </div>
+
+                <div class="info-card">
+                    <h3>🔒 Privacy</h3>
+                    <p>Your camera data is only used locally for QR code detection. No video is recorded or transmitted.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 Attendance System. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script defer src="/scanner.js"></script>
+</body>
+</html>

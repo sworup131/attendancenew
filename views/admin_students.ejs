@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin — Students</title>
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body class="admin-root">
+  <div class="admin-top">
+    <div class="brand">Attendance — Admin</div>
+    <div class="user">Logged in as <strong><%= username %></strong></div>
+  </div>
+
+  <div class="admin-container">
+    <aside class="admin-sidebar">
+      <nav>
+        <a href="/admin/dashboard">Dashboard</a>
+        <a href="/admin/students" class="active">Students</a>
+        <a href="/generate-qr">Generate QR</a>
+        <a href="/admin/reports">Reports</a>
+        <a href="/logout">Logout</a>
+      </nav>
+    </aside>
+
+    <main class="admin-main">
+      <h2>Registered Students</h2>
+      <p class="muted">Showing all student accounts and a quick attendance count.</p>
+
+      <div style="margin-top:12px;">
+        <table class="students">
+          <thead>
+            <tr>
+              <th>Username</th>
+              <th>Attendance Records</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% if (students && students.length) { %>
+              <% students.forEach(function(s) { %>
+                <tr>
+                  <td><%= s.username %></td>
+                  <td><span class="count"><%= (s.attendance && s.attendance.length) ? s.attendance.length : 0 %> entries</span></td>
+                </tr>
+              <% }) %>
+            <% } else { %>
+              <tr><td colspan="2">No students found.</td></tr>
+            <% } %>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin-top:16px;"><a href="/admin/dashboard" class="btn alt">Back to Dashboard</a></p>
+    </main>
+  </div>
+
+  <footer class="admin-footer">&copy; 2025 Attendance System</footer>
+</body>
+</html>

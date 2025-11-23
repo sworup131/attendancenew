@@ -1,0 +1,1111 @@
+(node:27120) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27120) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+Server running on port 3000
+connection successful
+Marked present: user6 2025-11-21
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Marked present: user16 2025-11-21
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user16@gmail.com Error: connect ENETUNREACH 95.216.108.161:587 - Local (0.0.0.0:50792)
+    at internalConnect (node:net:1110:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:472:18)
+    at node:net:1356:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11) {
+  errno: -51,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ENETUNREACH 95.216.108.161:587 - Local (0.0.0.0:50793)
+    at internalConnect (node:net:1110:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:472:18)
+    at node:net:1356:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11) {
+  errno: -51,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ENETUNREACH 95.216.108.161:587 - Local (0.0.0.0:50794)
+    at internalConnect (node:net:1110:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:472:18)
+    at node:net:1356:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11) {
+  errno: -51,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ENETUNREACH 95.216.108.161:587 - Local (0.0.0.0:50795)
+    at internalConnect (node:net:1110:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:472:18)
+    at node:net:1356:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11) {
+  errno: -51,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ENETUNREACH 95.216.108.161:587 - Local (0.0.0.0:50796)
+    at internalConnect (node:net:1110:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:472:18)
+    at node:net:1356:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:84:11) {
+  errno: -51,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to sworupsubedi7@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user7@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user8@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user9@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user10@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user11@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: Connection timeout
+    at SMTPConnection._formatError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:809:19)
+    at SMTPConnection._onError (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:795:20)
+    at Timeout.<anonymous> (/Users/sworupsubedi/Desktop/attendance-system-main/node_modules/nodemailer/lib/smtp-connection/index.js:237:22)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7) {
+  code: 'ETIMEDOUT',
+  command: 'CONN'
+}
+Failed to send to user12@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user13@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user14@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user15@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user17@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user18@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user19@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}
+Failed to send to user20@gmail.com Error: connect ETIMEDOUT 95.216.108.161:587
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16) {
+  errno: -60,
+  code: 'ESOCKET',
+  syscall: 'connect',
+  address: '95.216.108.161',
+  port: 587,
+  command: 'CONN'
+}

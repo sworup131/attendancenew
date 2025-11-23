@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/admin.css" />
+    <script defer src="/admin.js"></script>
+    <style> .welcome { font-size:14px; color:#223 } </style>
+</head>
+<body class="admin-root">
+    <div class="admin-top">
+        <div class="brand">Attendance — Admin</div>
+        <div class="user">Logged in as <strong><%= username %></strong></div>
+    </div>
+
+    <div class="admin-container">
+        <aside class="admin-sidebar">
+            <nav>
+                <a href="/admin/dashboard" class="active">Dashboard</a>
+                <a href="/admin/students">Students</a>
+                <a href="/generate-qr">Generate QR</a>
+                <a href="/admin/reports">Reports</a>
+                <a href="/logout">Logout</a>
+            </nav>
+        </aside>
+
+        <section class="admin-main">
+            <div class="cards">
+                <div class="card">
+                    <h3>Generate QR</h3>
+                    <p class="muted">Create a QR for today's attendance (date encoded).</p>
+                    <div class="actions">
+                        <a id="generateQr" class="btn">Generate Today's QR</a>
+                        <a class="btn alt" href="/generate-qr">Open QR Page</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Students</h3>
+                    <p class="muted">View and manage registered students.</p>
+                    <div class="actions">
+                        <a class="btn" href="/admin/students">View Students</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Face Detection Attendance</h3>
+                    <p class="muted">Open the face-detection attendance tool to mark attendance using the camera.</p>
+                    <div class="actions">
+                        <a class="btn" href="http://localhost:5001/" target="_blank" rel="noopener">Take Attendance</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Reports</h3>
+                    <p class="muted">Attendance reports and exports (placeholder).</p>
+                    <div class="actions">
+                        <a class="btn" href="/admin/reports">View Reports</a>
+                        <button id="sendNotifications" class="btn" style="background:#ff6b6b">Send Absence Emails</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Overview</h2>
+                <p class="muted">Quick actions and summaries will appear here. Use the sidebar to navigate admin features.</p>
+            </div>
+
+        </section>
+    </div>
+
+    <footer class="admin-footer">&copy; 2025 Attendance System</footer>
+</body>
+</html>

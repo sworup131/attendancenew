@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance System - Login</title>
+    <link rel="stylesheet" href="/login.css">
+    <script defer src="/login.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <h1><%= (typeof role !== 'undefined' && role === 'admin') ? 'Admin Login' : 'Student Login' %></h1>
+        <form id="loginform" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="none">
+            <input type="text" name="username" placeholder="Username" id="username" autocomplete="username" required>
+            <input type="password" name="password" placeholder="Password" id="password" autocomplete="current-password" required>
+            <input type="hidden" id="role" name="role" value="<%= typeof role !== 'undefined' ? role : 'student' %>" autocomplete="off">
+            <button type="submit" id="submit">Login</button>
+        </form>
+        <div class="footer">
+            &copy; 2025 Attendance System
+        </div>
+    </div>
+</body>
+</html>

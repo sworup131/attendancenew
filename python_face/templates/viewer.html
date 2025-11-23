@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Face Detections Viewer</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+      .item{display:flex;gap:8px;align-items:center;padding:8px;border-bottom:1px solid #f0f0f0}
+      .meta{flex:1}
+      .thumb{width:120px;height:120px;object-fit:cover;border-radius:6px}
+      .small{font-size:12px;color:#666}
+    </style>
+  </head>
+  <body>
+    <div style="max-width:980px;margin:24px auto">
+      <h2>Recent Face Detections</h2>
+      <div class="card" id="list"></div>
+    </div>
+
+    <script>
+      async function load(){
+        const r = await fetch('/api/student_faces?limit=100')
+        const data = await r.json()
+        const list = document.getElementById('list')
+        list.innerHTML = ''
+        data.items.forEach(it=>{
+          const el = document.createElement('div')
+          el.className = 'item'
+          const img = document.createElement('img')
+          img.className = 'thumb'
+          img.src = it.image_url || '/static/placeholder.png'
+          const md = document.createElement('div')
+          md.className = 'meta'
+          const title = document.createElement('div')
+          title.innerText = it.label || 'unknown'
+          const when = document.createElement('div')
+          when.className = 'small'
+          when.innerText = 'Detected at: ' + (it.detected_at || '')
+          const bbox = document.createElement('div')
+          bbox.className = 'small'
+          bbox.innerText = 'bbox: ' + JSON.stringify(it.bbox || {})
+          md.appendChild(title)
+          md.appendChild(when)
+          md.appendChild(bbox)
+          el.appendChild(img)
+          el.appendChild(md)
+          list.appendChild(el)
+        })
+      }
+      load()
+    </script>
+  </body>
+</html>

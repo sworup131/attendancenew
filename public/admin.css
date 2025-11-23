@@ -1,0 +1,37 @@
+.admin-root { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f4f7fb; color:#1f2d3d; min-height:100vh }
+
+.admin-top { background:linear-gradient(90deg,#0b5cff 0%, #3b82f6 100%); color:#fff; padding:18px 28px; display:flex; justify-content:space-between; align-items:center }
+.admin-top .brand { font-size:20px; font-weight:700 }
+.admin-top .user { opacity:0.95 }
+
+.admin-container { display:flex; gap:24px; max-width:1200px; margin:28px auto; padding:0 20px }
+
+.admin-sidebar { width:220px; background:#fff; border-radius:10px; padding:16px; box-shadow:0 6px 18px rgba(20,30,50,0.06) }
+.admin-sidebar nav a { display:block; padding:10px 12px; color:#0b5cff; border-radius:8px; margin-bottom:6px; text-decoration:none; font-weight:600 }
+.admin-sidebar nav a.active, .admin-sidebar nav a:hover { background:#eef6ff }
+
+.admin-main { flex:1 }
+.cards { display:flex; gap:14px; margin-bottom:18px; flex-wrap:wrap }
+.card { background:#fff; padding:16px; border-radius:10px; box-shadow:0 6px 18px rgba(20,30,50,0.05); min-width:180px; flex:1 }
+.card h3 { margin:0 0 8px 0; font-size:16px }
+.card p { margin:0; color:#556 
+}
+.actions { display:flex; gap:10px; margin-top:12px }
+.btn { display:inline-block; padding:8px 12px; border-radius:8px; background:#0b5cff; color:#fff; text-decoration:none }
+.btn.alt { background:#e6eefc; color:#0b5cff }
+
+/* students table */
+table.students { width:100%; border-collapse:collapse; background:#fff; border-radius:8px; overflow:hidden; box-shadow:0 6px 18px rgba(20,30,50,0.04) }
+table.students thead { background:#f6f9ff }
+table.students th, table.students td { padding:12px 14px; text-align:left; border-bottom:1px solid #f1f4fb }
+table.students tbody tr:hover { background:#fbfdff }
+.muted { color:#657786 }
+
+.admin-footer { text-align:center; margin:20px 0; color:#666 }
+
+@media (max-width:880px){
+	.admin-container{ flex-direction:column; padding:0 12px }
+	.admin-sidebar{ width:100%; order:2 }
+	.admin-main{ order:1 }
+	.cards{ flex-direction:column }
+}

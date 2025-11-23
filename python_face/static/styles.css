@@ -1,0 +1,18 @@
+body{font-family:Inter, Arial, Helvetica, sans-serif;background:#f6f8fb;color:#222;margin:0;padding:24px}
+.container{max-width:980px;margin:0 auto;display:flex;gap:20px}
+.left{flex:1}
+.right{width:320px}
+.card{background:#fff;border-radius:10px;box-shadow:0 6px 18px rgba(20,30,50,0.06);padding:12px}
+video{display:block;border-radius:8px;background:#000;max-width:100%}
+#overlay{border-radius:8px}
+#controls{margin-top:12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+button{background:#0b84ff;color:#fff;border:0;padding:8px 12px;border-radius:8px;cursor:pointer}
+button.secondary{background:#eef3ff;color:#0b3b8a}
+input#label{padding:8px;border-radius:8px;border:1px solid #dbe6fb;min-width:140px}
+#output{margin-top:10px;font-size:13px;color:#333;white-space:pre-wrap}
+.thumbs{display:flex;flex-direction:column;gap:8px;margin-top:10px}
+.thumbs img{width:100%;border-radius:6px;border:1px solid #eee}
+.status{font-size:13px;color:#666;margin-left:8px}
+.title{font-size:18px;margin-bottom:10px}
+.form-row{display:flex;gap:8px;align-items:center}
+.small{font-size:12px;color:#666}

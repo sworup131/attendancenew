@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Admin — Reports</title>
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body class="admin-root">
+  <div class="admin-top">
+    <div class="brand">Attendance — Admin</div>
+    <div class="user">Logged in as <strong><%= username %></strong></div>
+  </div>
+
+  <div class="admin-container">
+    <aside class="admin-sidebar">
+      <nav>
+        <a href="/admin/dashboard">Dashboard</a>
+        <a href="/admin/students">Students</a>
+        <a href="/generate-qr">Generate QR</a>
+        <a href="/admin/reports" class="active">Reports</a>
+        <a href="/logout">Logout</a>
+      </nav>
+    </aside>
+
+    <main class="admin-main">
+      <h2>Attendance Reports</h2>
+      <p class="muted">Total attendance days recorded: <strong><%= totalDays %></strong></p>
+
+      <div style="margin-top:12px;">
+        <table class="students">
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th>Days Present</th>
+              <th>Days Absent</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% if (report && report.length) { %>
+              <% report.forEach(function(r) { %>
+                <tr>
+                  <td><%= r.username %></td>
+                  <td><%= r.present %></td>
+                  <td><%= r.absent %></td>
+                </tr>
+              <% }) %>
+            <% } else { %>
+              <tr><td colspan="3">No student data available.</td></tr>
+            <% } %>
+          </tbody>
+        </table>
+      </div>
+
+      <p style="margin-top:16px;"><a href="/admin/dashboard" class="btn alt">Back to Dashboard</a></p>
+    </main>
+  </div>
+
+  <footer class="admin-footer">&copy; 2025 Attendance System</footer>
+</body>
+</html>
